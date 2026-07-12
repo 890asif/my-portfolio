@@ -161,7 +161,8 @@ gap: 10px;
     text-align: center;
     align-items: center;
     gap: 50px;
-    padding: 30px 10%;
+    padding: 20px 10%;
+    max-width: 1000px;
 }
 .resume-section h2{
     text-align: center;
@@ -186,6 +187,16 @@ gap: 10px;
     display: grid;
     justify-content: center;
 }
+.resume-container-1 p{
+    margin-top: 20px;
+    color: #666;
+}
+
+.resume-container-2 p{
+    margin-top: 20px;
+    color: #666;
+}
+
 
 
 /* my amazing section */
