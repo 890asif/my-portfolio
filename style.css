@@ -50,6 +50,10 @@ ul li a{
     cursor: pointer;
 
 }
+.common-button:hover{
+    background-color: white;
+    color: #fd6e0a;
+}
 
 .outline-button{
     background-color: white;
@@ -60,6 +64,10 @@ ul li a{
     color: #fd6e0a;
     border: 1px solid #fd6e0a;
     cursor: pointer;
+}
+.outline-button:hover{
+    background-color: #fd6e0a;
+    color: #FFFFFF;
 }
 .container{
     max-width: 1200px;
@@ -94,13 +102,14 @@ ul li a{
 .hero-left-btn-parent{
     margin-top: 12px;
 }
+/* about section */
 .about-parent{
     background-color: #fff8f3;
     width: 85%;
     margin: 80px auto;
     border-radius:15px;
     padding: 60px 70px; 
-    max-width: 900px;
+    max-width: 1000px;
     
     text-align: center;
 
@@ -130,11 +139,18 @@ gap: 10px;
     gap: 10px;
 
 }
+.what-i-do-card{
+    padding: 30px;
+}
+.what-i-do-card img{
+    width: 40px;
+}
+
 .what-i-do-parent h2{
     margin-bottom: 20px;
 }
 .what-i-do-parent p{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .what-i-do-parent{
     max-width: 1000px;
@@ -197,6 +213,17 @@ gap: 10px;
     color: #666;
 }
 
+.cv-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.cv-btn .common-button{
+     padding: 8px 16px;
+     font-size: 16px;
+}
+.cv-btn:hover{
+
+}
 
 
 /* my amazing section */
@@ -205,7 +232,7 @@ gap: 10px;
     max-width: 1000px;
 }
 .my-amazing h2{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .gellary{
     margin-top: 30px;
